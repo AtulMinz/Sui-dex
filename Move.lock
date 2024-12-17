@@ -16,6 +16,7 @@ source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testn
 id = "Sui"
 source = { git = "https://github.com/MystenLabs/sui.git", rev = "framework/testnet", subdir = "crates/sui-framework/packages/sui-framework" }
 
+
 dependencies = [
   { id = "MoveStdlib", name = "MoveStdlib" },
 ]
